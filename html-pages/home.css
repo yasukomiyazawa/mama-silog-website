@@ -1,6 +1,5 @@
 body {
     background-image: url(background-photo.jpg);
-    background-image;
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -9,35 +8,45 @@ body {
 
 }
 
-.top-logo{
-    margin-left: 20px;
-    margin-right: 10px;
-    width: 100px;
-    height:100px
+@media (min-width: 375px){
+    .nav-bar{
+        background-color: black;
+        max-width: 1500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin: 0% auto;
+    }
 }
 
-.nav-bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: transparent;
-    background-color: black;
+@media (min-width: 50px){
+    #top-logo{
+        max-width: 100px;
+        margin: 0% auto;
+    }
 }
 
-nav{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    max-width: 500px;
-    font-size: 20px;
-    margin-bottom: 20px;
+@media (min-width: 375px){
+    #pages-nav{
+        display: flex;
+        width:1500px ;
+        margin: 0% auto;
+        justify-content: space-around;
+        max-width: 1400px
+    }
 }
 
-.text-color{
+#text-color{
     color: white;
     text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
 }
+
+.nav-pages{
+    max-width: 500px;
+}
+
 
 .info{
     display: flex;

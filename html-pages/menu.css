@@ -1,30 +1,43 @@
 body{
-
+    margin: 0% auto;
+    max-width: 1500px;
 }
 
 @media (min-width: 375px){
     .nav-bar{
+        background-color: black;
+        max-width: 1500px;
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: flex-end;
         margin: 0% auto;
-        flex-direction: row;
-        background-color: black;
-        margin-top: 10px;
-        max-width: 1396px;
+
     }
 }
 
-@media (min-width: 10px){
+@media (min-width: 50px){
     #top-logo{
         max-width: 100px;
+        margin: 0% auto;
     }
 }
+
+@media (min-width: 375px){
+    #pages-nav{
+        display: flex;
+        width:1400px ;
+        margin: 0% auto;
+        justify-content: space-around;
+        max-width: 1500px
+    }
+}
+
 
 #text-color{
     color: white;
     text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
 }
 
 @media (min-width: 375px){
@@ -39,9 +52,14 @@ body{
     border-bottom: 1px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
-    max-width: 1396px;
+    max-width: 1000px;
     }
 }
+
+.nav-pages{
+    max-width: 500px;
+}
+
 
 #text-color2{
     color: black;
@@ -79,7 +97,7 @@ h1{
         flex-direction: row;
         justify-content: space-around;
         margin-bottom: 5%;
-        max-width: 1396px;
+        max-width: 1500px;
     }
 }
 
@@ -100,7 +118,7 @@ h1{
 
 #container{
     position: relative;
-    max-width: 1396px;
+    max-width: 1500;
 }
 
 .container:hover .overlay{
