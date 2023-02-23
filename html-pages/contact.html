@@ -1,39 +1,229 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
-    
     <head>
         <meta charset="UT-8">
-        <title>Mama Silog | Menu</title>
+        <title>Mama Silog | Contact</title>
     </head>
-    <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="contact.css">
 
     <body>
 
         <div class="nav-bar">
-            <nav>
-                <a href="home.html" target="_blank" class="text-color">Home</a>
-                <a href="menu.html" target="_blank" class="text-color">Menu</a>
+
+            <nav id="pages-nav">
+                <a href="home.html" target="_blank" id="text-color">Home</a>
+                <a href="menu.html" target="_blank" id="text-color">Menu</a>
             </nav>
 
             <a href="home.html">
-                <img class="top-logo"
+                <img id="top-logo"
                 src="mama-silog-logo.png"
-                alt="Mama Silog Logo" width="100px height 100px">
+                alt="Mama Silog Logo">
             </a>
-
-            <nav>
-                <a href="contact.html" target="_blank" class="text-color">Contact</a>
-                <a href="about.html" target="_blank" class="text-color">About Us</a>
+    
+            <nav id="pages-nav">
+                <a href="contact.html" target="_blank" id="text-color">Contact</a>
+                <a href="about.html" target="_blank" id="text-color">About Us</a>
             </nav>
+
         </div>
 
-        <form>
-            <legend></legend>
+        <form action="/form-handling-url" method="post">
+            
+            <fieldset>
 
+                <h1>Order Form</h1>
+
+                <p>Select your orders here</p>
+
+                <div class="menu-nav">
+                    <a href="#bestSellers"  id="text-color2">Best Sellers</a>
+                    <a href="#silog"  id="text-color2">Silogs</a>
+                    <a href="#alacarte"  id="text-color2">Ala Carte</a>
+                    <a href="#sides"  id="text-color2">Sides</a>
+                    <a href="#desserts"  id="text-color2">Desserts</a>
+                    <a href="#additionals"  id="text-color2">Additionals</a>
+                </div>
+
+                <h2 id="bestSellers">Silog Meals</h2>
+
+                <div>
+
+                    <input type="checkbox" id="tapsilog" name="tapsilog">
+                    <label for="tapsilog">Tapsilog Regular: ¥800 | Mega: ¥1,200</label><br>
+
+                    <label for="tapsilogQuantity">Quantity</label>
+                    <input type="number" id="tapsilogQuantity" name="tapsilog_quantity" placeholder="1">
+
+                    <label for="tapsilogSize">Size</label>
+                    <select id="tapsilogSize" name="tapsilog_size">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="tocilog" name="tocisilog">
+                    <label for="tocisilog">Tocilog Regular: ¥800 | Mega: ¥1,200</label><br>
+
+                    <label for="tocilogQuantity">Quantity</label>
+                    <input type="number" id="tocilogQuantity" name="tocilog_quantity" placeholder="1">
+
+                    <label for="tocilogSize">Size</label>
+                    <select id="tacilogSize" name="tacilog_size">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="liemposilog" name="liemposilog">
+                    <label for="liemposilog">Liemposilog Regular: ¥720 | Mega: ¥1,050</label><br>
+
+                    <label for="liemposilogQuantity">Quantity</label>
+                    <input type="number" id="liemposilogQuantity" name="liemposilog_quantity" placeholder="1">
+
+                    <label for="liemposilogSize">Size</label>
+                    <select id="liemposilogSize" name="liemposilog_size">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="bangsilog" name="basilog">
+                    <label for="bangsilog">Bangsilog Regular: ¥720 | Mega: ¥1,050</label><br>
+
+                    <label for="bangsilogQuantity">Quantity</label>
+                    <input type="number" id="bangsilogsilogQuantity" name="bangsilog_quantity" placeholder="1">
+
+                    <label for="bangsilogSize">Size</label>
+                    <select id="bangsilogSize" name="bangsilog_size">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                    </select>
+
+                </div>
+
+                <div>
+                    <input type="checkbox" id="bangsilog" name="basilog">
+                    <label for="chicsilog">Chicsilog Regular: ¥850 | Mega: ¥1,350</label>
+                </div>
+
+                <label for="chicsilogQuantity">Quantity</label>
+                <input type="number" id="chicsilogsilogQuantity" name="chicsilog_quantity" placeholder="1">
+
+                <label for="chicsilogSize">Size</label>
+                <select id="chicsilogSize" name="chicsilog_size">
+                    <option value="Regular">Regular</option>
+                    <option value="Large">Large</option>
+                </select>
+
+                <h2 id="alacarte">Ala Carte</h2>
+
+                <div>
+
+                    <input type="checkbox" id="porkBBQ" name="pork_BBQ">
+                    <label for="porkBBQ">Pork BBQ Half: ¥800 | Full: ¥1,200</label><br>
+
+                    <label for="porkBBQQuantity">Quantity</label>
+                    <input type="number" id="porkBBQQuantity" name="porkBBQ_quantity" placeholder="1">
+
+                    <label for="porkBBQSize">Size</label>
+                    <select id="porkBBQSize" name="porkBBQ_size">
+                        <option value="Half">Half</option>
+                        <option value="Full">Full</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="lumpiangShanghai" name="lumpiangShanghai">
+                    <label for="tocisilog">lumpiang Shanghai Half: ¥800 | Full: ¥1,200</label><br>
+
+                    <label for="lumpiangShanghaiQuantity">Quantity</label>
+                    <input type="number" id="lumpiangShanghaiQuantity" name="lumpiangShanghai_quantity" placeholder="1">
+
+                    <label for="lumpiangShanghaiSize">Size</label>
+                    <select id="lumpiangShanghaiSize" name="lumpiangShanghai_size">
+                        <option value="Half">Half</option>
+                        <option value="Full">Full</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="binagoongan" name="binagoongan">
+                    <label for="binagoongan">Binagoongan Half: ¥690 | Full: ¥1,000</label><br>
+
+                    <label for="binagoonganQuantity">Quantity</label>
+                    <input type="number" id="binagoonganQuantity" name="binagoongan_quantity" placeholder="1">
+
+                    <label for="binagoonganSize">Size</label>
+                    <select id="binagoonganSize" name="binagoongan_size">
+                        <option value="Regular">Half</option>
+                        <option value="Large">Full</option>
+                    </select>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="embutido" name="embutido">
+                    <label for="embutido">Embutido Half: ¥720 | Full: ¥1,050</label><br>
+
+                    <label for="embutidoQuantity">Quantity</label>
+                    <input type="number" id="embutidoQuantity" name="embutido_quantity" placeholder="1">
+
+                    <label for="embutidoSize">Size</label>
+                    <select id="embutidoSize" name="embutido_size">
+                        <option value="Regular">Half</option>
+                        <option value="Large">Full</option>
+                    </select>
+
+                </div>
+
+                <div>
+                    <input type="checkbox" id="sinigang" name="sinigang">
+                    <label for="sinigang">Sinigang na Baboy Half: ¥720 | Full: ¥1,050</label>
+                </div>
+
+                <label for="sinigangQuantity">Quantity</label>
+                <input type="number" id="sinigangQuantity" name="sinigang_quantity" placeholder="1">
+
+                <label for="sinigangSize">Size</label>
+                <select id="sinigangSize" name="sinigang_size">
+                    <option value="Regular">Half</option>
+                    <option value="Large">Full</option>
+                </select>
+
+
+                <div>
+                    <input type="checkbox" id="pinakbet" name="pinakbet">
+                    <label for="pinakbet">Pinakbet Half: ¥720 | Full: ¥1,050</label>
+                </div>
+
+                <label for="pinakbetQuantity">Quantity</label>
+                <input type="number" id="pinakbetQuantity" name="pinakbet_quantity" placeholder="1">
+
+                <label for="pinakbetSize">Size</label>
+                <select id="pinakbetSize" name="pinakbet_size">
+                    <option value="Regular">Half</option>
+                    <option value="Large">Full</option>
+                </select>
+
+            </fieldset>
 
         </form>
-        
-    </body>
 
-</html>
+    </body>
+</html>    
