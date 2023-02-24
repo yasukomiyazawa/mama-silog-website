@@ -5,6 +5,7 @@
         background-size: cover;
         margin: 0% auto;
         max-width: 1500px;
+        background-color: maroon;
     }
 }
 
@@ -41,4 +42,43 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+@media (min-width: 375px){
+    .menu-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 600px;
+    width: 600px
+    }
+}
+
+#text-color2{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (min-width:375px){
+    fieldset{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: beige;
+        color: black;
+        width: 700px;
+        max-width: 700px;
+        margin: 0%auto;
+    }
 }
