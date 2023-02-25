@@ -1,6 +1,6 @@
 @media (min-width: 375px){
     body {
-        background-image: url(background-photo.jpg) ;
+        background-color: white;
         display: flex;
         flex-direction: column;
         background-size: cover;

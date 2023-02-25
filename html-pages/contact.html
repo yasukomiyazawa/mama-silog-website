@@ -33,26 +33,26 @@
             
             <fieldset>
 
-                <h1>Order Form</h1>
-
-                <p>Select your orders here</p>
+                <h1>Mama' Silog<br>Order Form</h1><br>
 
                 <div class="menu-nav">
-                    <a href="#silog"  id="text-color2">Silo Meals</a>
+                    <a href="#silog"  id="text-color2">Silog Meals</a>
                     <a href="#alacarte"  id="text-color2">Ala Carte</a>
                     <a href="#sides"  id="text-color2">Sides</a>
                     <a href="#desserts"  id="text-color2">Desserts</a>
                 </div>
+                <br>
 
                 <h2 id="silog">Silog Meals</h2>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="tapsilog" name="tapsilog">
                     <label for="tapsilog">Tapsilog Regular: ¥800 | Mega: ¥1,200</label><br>
-
+                    
+                    <div></div>
                     <label for="tapsilogQuantity">Quantity</label>
-                    <input type="number" id="tapsilogQuantity" name="tapsilog_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="tapsilogQuantity" name="tapsilog_quantity" placeholder="1">
 
                     <label for="tapsilogSize">Size</label>
                     <select id="tapsilogSize" name="tapsilog_size">
@@ -62,13 +62,13 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="tocilog" name="tocisilog">
                     <label for="tocisilog">Tocilog Regular: ¥800 | Mega: ¥1,200</label><br>
 
                     <label for="tocilogQuantity">Quantity</label>
-                    <input type="number" id="tocilogQuantity" name="tocilog_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="tocilogQuantity" name="tocilog_quantity" placeholder="1">
 
                     <label for="tocilogSize">Size</label>
                     <select id="tacilogSize" name="tacilog_size">
@@ -78,13 +78,13 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="liemposilog" name="liemposilog">
                     <label for="liemposilog">Liemposilog Regular: ¥720 | Mega: ¥1,050</label><br>
 
                     <label for="liemposilogQuantity">Quantity</label>
-                    <input type="number" id="liemposilogQuantity" name="liemposilog_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="liemposilogQuantity" name="liemposilog_quantity" placeholder="1">
 
                     <label for="liemposilogSize">Size</label>
                     <select id="liemposilogSize" name="liemposilog_size">
@@ -94,13 +94,13 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="bangsilog" name="basilog">
                     <label for="bangsilog">Bangsilog Regular: ¥720 | Mega: ¥1,050</label><br>
 
                     <label for="bangsilogQuantity">Quantity</label>
-                    <input type="number" id="bangsilogsilogQuantity" name="bangsilog_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="bangsilogsilogQuantity" name="bangsilog_quantity" placeholder="1">
 
                     <label for="bangsilogSize">Size</label>
                     <select id="bangsilogSize" name="bangsilog_size">
@@ -110,29 +110,30 @@
 
                 </div>
 
-                <div>
-                    <input type="checkbox" id="bangsilog" name="basilog">
-                    <label for="chicsilog">Chicsilog Regular: ¥850 | Mega: ¥1,350</label>
+                <div class="orders">
+                    <input type="checkbox" id="chicsilog" name="basilog">
+                    <label for="chicsilog">Chicsilog Regular: ¥850 | Mega: ¥1,350</label><br>
+
+                    <label for="chicsilogQuantity">Quantity</label>
+                    <input class="Quantity" type="number" id="chicsilogsilogQuantity" name="chicsilog_quantity" placeholder="1">
+    
+                    <label for="chicsilogSize">Size</label>
+                    <select id="chicsilogSize" name="chicsilog_size">
+                        <option value="Regular">Regular</option>
+                        <option value="Large">Large</option>
+                    </select>
+
                 </div>
-
-                <label for="chicsilogQuantity">Quantity</label>
-                <input type="number" id="chicsilogsilogQuantity" name="chicsilog_quantity" placeholder="1">
-
-                <label for="chicsilogSize">Size</label>
-                <select id="chicsilogSize" name="chicsilog_size">
-                    <option value="Regular">Regular</option>
-                    <option value="Large">Large</option>
-                </select>
 
                 <h2 id="alacarte">Ala Carte</h2>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="porkBBQ" name="pork_BBQ">
                     <label for="porkBBQ">Pork BBQ Half: ¥800 | Full: ¥1,200</label><br>
 
                     <label for="porkBBQQuantity">Quantity</label>
-                    <input type="number" id="porkBBQQuantity" name="porkBBQ_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="porkBBQQuantity" name="porkBBQ_quantity" placeholder="1">
 
                     <label for="porkBBQSize">Size</label>
                     <select id="porkBBQSize" name="porkBBQ_size">
@@ -142,13 +143,13 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="lumpiangShanghai" name="lumpiangShanghai">
                     <label for="tocisilog">lumpiang Shanghai Half: ¥800 | Full: ¥1,200</label><br>
 
                     <label for="lumpiangShanghaiQuantity">Quantity</label>
-                    <input type="number" id="lumpiangShanghaiQuantity" name="lumpiangShanghai_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="lumpiangShanghaiQuantity" name="lumpiangShanghai_quantity" placeholder="1">
 
                     <label for="lumpiangShanghaiSize">Size</label>
                     <select id="lumpiangShanghaiSize" name="lumpiangShanghai_size">
@@ -158,13 +159,13 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="binagoongan" name="binagoongan">
                     <label for="binagoongan">Binagoongan Half: ¥690 | Full: ¥1,000</label><br>
 
                     <label for="binagoonganQuantity">Quantity</label>
-                    <input type="number" id="binagoonganQuantity" name="binagoongan_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="binagoonganQuantity" name="binagoongan_quantity" placeholder="1">
 
                     <label for="binagoonganSize">Size</label>
                     <select id="binagoonganSize" name="binagoongan_size">
@@ -174,13 +175,13 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
 
                     <input type="checkbox" id="embutido" name="embutido">
                     <label for="embutido">Embutido Half: ¥720 | Full: ¥1,050</label><br>
 
                     <label for="embutidoQuantity">Quantity</label>
-                    <input type="number" id="embutidoQuantity" name="embutido_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id="embutidoQuantity" name="embutido_quantity" placeholder="1">
 
                     <label for="embutidoSize">Size</label>
                     <select id="embutidoSize" name="embutido_size">
@@ -190,43 +191,45 @@
 
                 </div>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="sinigang" name="sinigang">
-                    <label for="sinigang">Sinigang na Baboy Half: ¥720 | Full: ¥1,050</label>
+                    <label for="sinigang">Sinigang na Baboy Half: ¥720 | Full: ¥1,050</label><br>
+
+                    <label for="sinigangQuantity">Quantity</label>
+                    <input class="Quantity" type="number" id="sinigangQuantity" name="sinigang_quantity" placeholder="1">
+    
+                    <label for="sinigangSize">Size</label>
+                    <select id="sinigangSize" name="sinigang_size">
+                        <option value="Regular">Half</option>
+                        <option value="Large">Full</option>
+                    </select>
+
                 </div>
 
-                <label for="sinigangQuantity">Quantity</label>
-                <input type="number" id="sinigangQuantity" name="sinigang_quantity" placeholder="1">
-
-                <label for="sinigangSize">Size</label>
-                <select id="sinigangSize" name="sinigang_size">
-                    <option value="Regular">Half</option>
-                    <option value="Large">Full</option>
-                </select>
-
-
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="pinakbet" name="pinakbet">
-                    <label for="pinakbet">Pinakbet Half: ¥720 | Full: ¥1,050</label>
+                    <label for="pinakbet">Pinakbet Half: ¥720 | Full: ¥1,050</label><br>
+
+                    <label for="pinakbetQuantity">Quantity</label>
+                    <input class="Quantity" type="number" id="pinakbetQuantity" name="pinakbet_quantity" placeholder="1">
+
+                    <label for="pinakbetSize">Size</label>
+                    <select id="pinakbetSize" name="pinakbet_size">
+                        <option value="Regular">Half</option>
+                        <option value="Large">Full</option>
+                    </select>
+                    
                 </div>
 
-                <label for="pinakbetQuantity">Quantity</label>
-                <input type="number" id="pinakbetQuantity" name="pinakbet_quantity" placeholder="1">
-
-                <label for="pinakbetSize">Size</label>
-                <select id="pinakbetSize" name="pinakbet_size">
-                    <option value="Regular">Half</option>
-                    <option value="Large">Full</option>
-                </select>
 
                 <h2 id="sides">Sides</h2>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="cheeseSticks" name="cheese_sticks">
                     <label for="cheeseSticks">Cheese Sticks</label><br>
                     
                     <label for="cheeseSticksQuantity">Quantity</label>
-                    <input type="number" id=" cheeseSticksQuantity" name="cheeseSticks_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" cheeseSticksQuantity" name="cheeseSticks_quantity" placeholder="1">
 
                     <label for="cheeseSticksSize">Size</label>
                     <select id="cheeseSticksSize">
@@ -234,12 +237,12 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="lumpiangGulay" name="lumpiang_gulay">
                     <label for="lumpiangGulay">Cheese Sticks</label><br>
                     
                     <label for="lumpiangGulayQuantity">Quantity</label>
-                    <input type="number" id=" lumpiangGulayQuantity" name="lumpiangGulay_Quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" lumpiangGulayQuantity" name="lumpiangGulay_Quantity" placeholder="1">
 
                     <label for="lumpiangGulaySize">Size</label>
                     <select id="lumpiangGulaySize">
@@ -247,12 +250,12 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="tokwatbaboy" name="lokwat_baboy">
                     <label for="tokwatbaboy">Tokwa't Baboy</label><br>
                     
                     <label for="tokwatbaboyQuantity">Quantity</label>
-                    <input type="number" id=" tokwatbaboyQuantity" name="tokwatbaboy_Quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" tokwatbaboyQuantity" name="tokwatbaboy_Quantity" placeholder="1">
 
                     <label for="tokwatbaboySize">Size</label>
                     <select id="tokwatbaboySize">
@@ -262,12 +265,12 @@
 
                 <h2 id="desserts">Desserts</h2>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="turon" name="turon">
                     <label for="turon">Turon</label><br>
                     
                     <label for="turonQuantity">Size</label>
-                    <input type="number" id=" turonQuantity" name="turon_quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" turonQuantity" name="turon_quantity" placeholder="1">
 
                     <label for="turonSize">Size</label>
                     <select id="turonSize">
@@ -275,12 +278,12 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="kamoteCue" name="kamote_cue">
                     <label for="kamoteCue">Kamote Cue</label><br>
                     
                     <label for="kamoteCueQuantity">Quantity</label>
-                    <input type="number" id=" kamoteCueQuantity" name="kamoteCue_Quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" kamoteCueQuantity" name="kamoteCue_Quantity" placeholder="1">
 
                     <label for="kamoteCueSize">Size</label>
                     <select id="kamoteCueSize">
@@ -288,12 +291,12 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="pastillas" name="pastillas">
                     <label for="pastillas">Pastillas</label><br>
                     
                     <label for="pastillasQuantity">Quantity</label>
-                    <input type="number" id=" pastillasQuantity" name="pastillas_Quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" pastillasQuantity" name="pastillas_Quantity" placeholder="1">
 
                     <label for="pastillasSize">Size</label>
                     <select id="pastillasSize">
@@ -301,12 +304,12 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="orders">
                     <input type="checkbox" id="lecheFlan" name="leche_flan">
                     <label for="lecheFlan">Leche Flan</label><br>
                     
                     <label for="lecheFlanQuantity">Quantity</label>
-                    <input type="number" id=" lecheFlanuantity" name="lecheFlan_Quantity" placeholder="1">
+                    <input class="Quantity" type="number" id=" lecheFlanuantity" name="lecheFlan_Quantity" placeholder="1">
 
                     <label for="lecheFlanSize">Size</label>
                     <select id="lecheFlanSize">
@@ -314,7 +317,7 @@
                     </select>
                 </div>
 
-                <div><button type="submit">Submit</button></div>
+                <div class="submit"><button type="submit">Submit Order</button></div>
 
             </fieldset>
 

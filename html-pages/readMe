@@ -1,0 +1,233 @@
+@media (min-width: 375px){
+    body {
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        width: 1500px;
+        background-color: maroon;
+        margin: 0% auto;
+    }
+}
+
+@media (min-width: 375px){
+    .nav-bar{
+        background-color: black;
+        max-width: 1500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 50px){
+    #top-logo{
+        max-width: 100px;
+        margin: 0% auto;
+    }
+}
+
+@media (min-width: 375px){
+    #pages-nav{
+        display: flex;
+        margin: 0% auto;
+        justify-content: space-around;
+        max-width: 1500px;
+        width: 700px;
+    }
+}
+
+#text-color{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (min-width: 375px){
+    .menu-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1500px;
+    width: 600px;
+    }
+}
+
+
+@media (max-width: 700px){
+    p{
+        width: 700px;
+        font-size: 20px;
+        max-width: 700px;
+        text-align: center;
+        margin: 0% auto;
+    }
+}
+
+
+#text-color2{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (min-width:375px){
+    form{
+        max-width: 1500px;
+        margin: 100px;
+    }
+}
+
+@media (min-width:375px){
+    fieldset{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        max-width: 1000px;
+        margin: 0% auto;
+    }
+}
+
+
+
+.Quantity{
+    background-color: green;
+}
+
+
+h1{
+    font-size: 100px;
+    margin: 0% auto;
+    text-align: center;
+}
+
+@media (max-width:){
+    h1{
+        font: 50px;
+        margin: 0% auto;
+        max-width: 1000px;
+    }
+}
+
+
+
+
+
+_______________________________________________________
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    max-width: 1500px;
+    background-color: maroon;
+    margin: 0% auto;
+}
+
+.nav-bar{
+    background-color: black;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#top-logo{
+    max-width: 100px;
+    margin: 0% auto;
+}
+
+#pages-nav{
+    display: flex;
+    margin: 0% auto;
+    justify-content: space-around;
+    max-width: 1500px;
+    width: 700px;
+}
+
+#text-color{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0% auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1500px;
+    width: 600px;
+}
+
+p{
+    width: 700px;
+    font-size: 20px;
+    max-width: 700px;
+    text-align: center;
+    margin: 0% auto;
+}
+
+
+#text-color2{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form{
+    max-width: 1500px;
+    margin: 100px;
+}
+
+fieldset{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin: 0% auto;
+}
+
+
+.Quantity{
+    background-color: green;
+}
+
+
+h1{
+    font-size: 100px;
+    margin: 0% auto;
+    text-align: center;
+}
+
+h1{
+    font: 50px;
+    margin: 0% auto;
+    max-width: 1000px;
+}
